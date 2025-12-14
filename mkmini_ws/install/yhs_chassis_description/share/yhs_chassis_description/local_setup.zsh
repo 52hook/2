@@ -1,0 +1,1 @@
+/home/nvidia/mkmini_ws/build/yhs_chassis_description/ament_cmake_environment_hooks/local_setup.zsh

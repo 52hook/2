@@ -1,0 +1,28 @@
+<robot name="yhs_chassis_description">
+  <link name="base_link">
+    <visual>
+      <origin
+        xyz="0.42 0.31 0"
+        rpy="1.57 0 -1.57" />
+      <geometry>
+        <mesh
+          filename="package://yhs_chassis_description/meshes/MK-mini.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0.8 0.8 1" />
+      </material>
+    </visual>
+  </link>
+
+    <!-- LiDAR frame (Livox) -->
+  <link name="livox_frame"/>
+
+  <joint name="base_to_livox" type="fixed">
+    <parent link="base_link"/>
+    <child link="livox_frame"/>
+    <origin xyz="0.645 0 0.525" rpy="0 0 0"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/RrWheelFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct RrWheelFb {
+      float rr_wheel_fb_velocity;
+
+      int32 rr_wheel_fb_pulse;
+    };
+  };
+};

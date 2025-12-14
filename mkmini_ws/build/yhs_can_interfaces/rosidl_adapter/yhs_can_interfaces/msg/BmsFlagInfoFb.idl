@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/BmsFlagInfoFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct BmsFlagInfoFb {
+      uint8 bms_flag_info_soc;
+
+      boolean bms_flag_info_single_ov;
+
+      boolean bms_flag_info_single_uv;
+
+      boolean bms_flag_info_ov;
+
+      boolean bms_flag_info_uv;
+
+      boolean bms_flag_info_charge_ot;
+
+      boolean bms_flag_info_charge_ut;
+
+      boolean bms_flag_info_discharge_ot;
+
+      boolean bms_flag_info_discharge_ut;
+
+      boolean bms_flag_info_charge_oc;
+
+      boolean bms_flag_info_discharge_oc;
+
+      boolean bms_flag_info_short;
+
+      boolean bms_flag_info_ic_error;
+
+      boolean bms_flag_info_lock_mos;
+
+      boolean bms_flag_info_charge_flag;
+
+      boolean bms_flag_info_soc_warning;
+
+      boolean bms_flag_info_soc_low_protection;
+
+      float bms_flag_info_hight_temperature;
+
+      float bms_flag_info_low_temperature;
+    };
+  };
+};

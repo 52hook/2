@@ -1,0 +1,16 @@
+{
+  "package_name": "yhs_can_interfaces",
+  "non_idl_tuples": [
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/BmsFlagInfoFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/BmsInfoFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/ChassisInfoFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/CtrlCmd.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/CtrlFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/DriveMcuEcodeFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/IoCmd.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/IoFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/LrWheelFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/RrWheelFb.msg",
+    "/home/nvidia/mkmini_ws/src/MK-mini-ros2/yhs_can_interfaces:msg/VehDiagFb.msg"
+  ]
+}

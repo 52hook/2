@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/launch/MK-mini.launch.py
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/meshes/MK-mini.STL
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/rviz/rviz.rviz
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/urdf/MK-mini.urdf
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/package_run_dependencies/yhs_chassis_description
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/parent_prefix_path/yhs_chassis_description
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/path.sh
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/path.dsv
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.bash
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.sh
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.zsh
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.dsv
+-- Symlinking: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/package.dsv
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/packages/yhs_chassis_description
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/cmake/yhs_chassis_descriptionConfig.cmake
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/cmake/yhs_chassis_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/package.xml

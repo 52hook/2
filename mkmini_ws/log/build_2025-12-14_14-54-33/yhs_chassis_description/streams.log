@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/mkmini_ws/build/yhs_chassis_description -- -j20 -l20
+[0.024s] Invoked command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/mkmini_ws/build/yhs_chassis_description -- -j20 -l20
+[0.029s] Invoking command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --install /home/nvidia/mkmini_ws/build/yhs_chassis_description
+[0.033s] -- Install configuration: ""
+[0.033s] -- Execute custom install script
+[0.033s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/launch/MK-mini.launch.py
+[0.033s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/meshes/MK-mini.STL
+[0.033s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/rviz/rviz.rviz
+[0.033s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/urdf/MK-mini.urdf
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/package_run_dependencies/yhs_chassis_description
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/parent_prefix_path/yhs_chassis_description
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/ament_prefix_path.sh
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/ament_prefix_path.dsv
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/path.sh
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/path.dsv
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.bash
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.sh
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.zsh
+[0.034s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.dsv
+[0.034s] -- Symlinking: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/package.dsv
+[0.038s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/packages/yhs_chassis_description
+[0.039s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/cmake/yhs_chassis_descriptionConfig.cmake
+[0.039s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/cmake/yhs_chassis_descriptionConfig-version.cmake
+[0.039s] -- Up-to-date symlink: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/package.xml

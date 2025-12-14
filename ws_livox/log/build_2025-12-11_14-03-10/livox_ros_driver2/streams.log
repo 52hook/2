@@ -1,0 +1,359 @@
+[0.006s] Invoking command in '/home/nvidia/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake /home/nvidia/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/nvidia/ws_livox/install/livox_ros_driver2
+[0.037s] -- The C compiler identification is GNU 9.5.0
+[0.072s] -- The CXX compiler identification is GNU 9.5.0
+[0.076s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/gcc - skipped
+[0.132s] -- Detecting C compile features
+[0.133s] -- Detecting C compile features - done
+[0.136s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.207s] -- livox_ros_driver2 version: 1.2.4
+[0.207s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.488s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.533s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.550s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.575s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.580s] -- Looking for pthread.h
+[0.639s] -- Looking for pthread.h - found
+[0.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.707s] -- Found Threads: TRUE  
+[0.806s] -- Checking for module 'eigen3'
+[0.812s] --   Found eigen3, version 3.4.0
+[0.825s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.825s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.846s] -- Checking for module 'flann'
+[0.853s] --   Found flann, version 1.9.1
+[0.871s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.871s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.659s] -- Checking for module 'libusb-1.0'
+[1.669s] --   Found libusb-1.0, version 1.0.25
+[1.709s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.711s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.783s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.885s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.889s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.893s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.987s] -- Found Qhull version 8.0.2
+[2.083s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.179s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.180s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.180s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.181s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.181s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.182s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.182s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.182s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.183s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.184s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.184s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.185s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.185s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.186s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.186s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.187s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.188s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.188s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.189s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.189s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.190s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.190s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.190s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.191s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.192s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.217s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.217s] -- Checking for module 'apr-1'
+[2.219s] --   No package 'apr-1' found
+[2.356s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.697s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.698s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.715s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.715s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.715s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.715s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.728s] -- Found PythonExtra: .so  
+[2.771s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.783s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.786s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.787s] -- Configured cppcheck include dirs: /home/nvidia/ws_livox/src/livox_ros_driver2/3rdparty;/home/nvidia/ws_livox/src/livox_ros_driver2/src
+[2.787s] -- Configured cppcheck exclude dirs and/or files: 
+[2.789s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.789s] -- Configured cpplint exclude dirs and/or files: 
+[2.790s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.791s] -- Added test 'lint_cmake' to check CMake code style
+[2.791s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.794s] -- Added test 'uncrustify' to check C / C++ code style
+[2.794s] -- Configured uncrustify additional arguments: 
+[2.794s] -- Added test 'xmllint' to check XML markup files
+[2.796s] -- Configuring done
+[2.831s] -- Generating done
+[2.845s] -- Build files have been written to: /home/nvidia/ws_livox/build/livox_ros_driver2
+[2.860s] Invoked command in '/home/nvidia/ws_livox/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake /home/nvidia/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/nvidia/ws_livox/install/livox_ros_driver2
+[2.860s] Invoking command in '/home/nvidia/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ws_livox/build/livox_ros_driver2 -- -j20 -l20
+[2.885s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.890s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.891s] [  5%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[2.894s] [  5%] Built target ament_cmake_python_copy_livox_ros_driver2
+[3.035s] running egg_info
+[3.035s] creating livox_ros_driver2.egg-info
+[3.036s] writing livox_ros_driver2.egg-info/PKG-INFO
+[3.036s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[3.036s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[3.036s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[3.037s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[3.038s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[3.055s] [  5%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[3.144s] [  5%] Built target livox_interfaces2__cpp
+[3.149s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.149s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.149s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.155s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[3.155s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[3.182s] [ 15%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[3.203s] [ 15%] Built target livox_interfaces2__rosidl_generator_c
+[3.209s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.209s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.209s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.378s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[3.379s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[3.393s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[3.393s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[3.403s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[3.403s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[3.442s] [ 33%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[3.443s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[3.464s] [ 38%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[3.464s] [ 38%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[3.465s] [ 40%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[3.474s] [ 42%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[3.475s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[3.487s] [ 45%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[3.488s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_c
+[3.505s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[3.518s] [ 47%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[3.544s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[3.558s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[3.558s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[3.558s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[3.559s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[3.559s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[3.559s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[3.559s] [ 59%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[3.559s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[3.559s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[3.559s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[3.560s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[3.560s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[3.565s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[3.620s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[3.684s] [ 75%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[3.684s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[3.710s] [ 77%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[3.749s] [ 78%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.782s] [ 78%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[3.813s] [ 78%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[3.853s] [ 78%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[3.871s] [ 78%] Built target livox_interfaces2
+[3.889s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.419s] [ 80%] Built target livox_interfaces2__py
+[4.430s] [ 84%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[4.430s] [ 84%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[4.486s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[4.511s] [ 85%] Built target livox_interfaces2__rosidl_generator_py
+[4.523s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.523s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[4.523s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.575s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.575s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.575s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.596s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[4.596s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[4.596s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[4.961s] [ 98%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[5.038s] [ 98%] Built target livox_ros_driver2_node
+[8.202s] [100%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[8.642s] [100%] Built target livox_ros_driver2
+[8.649s] Invoked command in '/home/nvidia/ws_livox/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ws_livox/build/livox_ros_driver2 -- -j20 -l20
+[8.655s] Invoking command in '/home/nvidia/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ws_livox/build/livox_ros_driver2
+[8.660s] -- Install configuration: ""
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[8.660s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[8.661s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[8.661s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[8.661s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[8.661s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[8.661s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[8.661s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[8.661s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.661s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[8.661s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[8.662s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[8.662s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[8.662s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[8.662s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[8.662s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[8.662s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[8.662s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[8.662s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.662s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[8.663s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.663s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[8.663s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[8.663s] -- Up-to-date: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[8.663s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[8.663s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+[8.663s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.664s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.692s] Listing '/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[8.693s] Compiling '/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[8.693s] Listing '/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[8.693s] Compiling '/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+[8.693s] Compiling '/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[8.693s] Compiling '/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.696s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.696s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.696s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[8.696s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[8.696s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[8.697s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+[8.697s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[8.699s] -- Set runtime path of "/home/nvidia/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[8.699s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[8.700s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[8.701s] -- Installing: /home/nvidia/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[8.702s] Invoked command in '/home/nvidia/ws_livox/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ws_livox/build/livox_ros_driver2

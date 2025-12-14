@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating mid360_lio_bridge.egg-info
+writing mid360_lio_bridge.egg-info/PKG-INFO
+writing dependency_links to mid360_lio_bridge.egg-info/dependency_links.txt
+writing entry points to mid360_lio_bridge.egg-info/entry_points.txt
+writing requirements to mid360_lio_bridge.egg-info/requires.txt
+writing top-level names to mid360_lio_bridge.egg-info/top_level.txt
+writing manifest file 'mid360_lio_bridge.egg-info/SOURCES.txt'
+reading manifest file 'mid360_lio_bridge.egg-info/SOURCES.txt'
+writing manifest file 'mid360_lio_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/lib/python3.10/site-packages/mid360-lio-bridge.egg-link (link to .)
+Installing bridge_node script to /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/lib/mid360_lio_bridge
+
+Installed /home/nvidia/ws_fastlio2/build/mid360_lio_bridge
+running symlink_data
+creating /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/share/ament_index
+creating /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/share/ament_index/resource_index
+creating /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/nvidia/ws_fastlio2/build/mid360_lio_bridge/resource/mid360_lio_bridge -> /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/nvidia/ws_fastlio2/build/mid360_lio_bridge/package.xml -> /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/share/mid360_lio_bridge

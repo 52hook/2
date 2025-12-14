@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/IoFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct IoFb {
+      boolean io_fb_enable;
+
+      int8 io_fb_turn_lamp;
+
+      boolean io_fb_braking_lamp;
+
+      boolean io_fb_fm_impact_sensor;
+
+      boolean io_fb_rm_impact_sensor;
+
+      boolean io_fb_dis_charge;
+
+      boolean io_fb_charge_en;
+
+      boolean io_fb_scram_st;
+    };
+  };
+};

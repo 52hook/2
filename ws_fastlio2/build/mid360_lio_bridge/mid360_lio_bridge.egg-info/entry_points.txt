@@ -1,0 +1,3 @@
+[console_scripts]
+bridge_node = mid360_lio_bridge.bridge_node:main
+

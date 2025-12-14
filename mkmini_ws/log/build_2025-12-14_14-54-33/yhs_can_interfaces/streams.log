@@ -1,0 +1,9 @@
+[0.007s] Invoking command in '/home/nvidia/mkmini_ws/build/yhs_can_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/mkmini_ws/build/yhs_can_interfaces -- -j20 -l20
+[0.034s] failed to create symbolic link '/home/nvidia/mkmini_ws/build/yhs_can_interfaces/ament_cmake_python/yhs_can_interfaces/yhs_can_interfaces' because existing path cannot be removed: Is a directory
+[0.034s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_yhs_can_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_yhs_can_interfaces] Error 1
+[0.035s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_yhs_can_interfaces.dir/all] Error 2
+[0.035s] gmake[1]: *** Waiting for unfinished jobs....
+[0.035s] [  0%] Built target yhs_can_interfaces__cpp
+[0.037s] [ 12%] Built target yhs_can_interfaces__rosidl_generator_c
+[0.038s] gmake: *** [Makefile:146: all] Error 2
+[0.039s] Invoked command in '/home/nvidia/mkmini_ws/build/yhs_can_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/mkmini_ws/build/yhs_can_interfaces -- -j20 -l20

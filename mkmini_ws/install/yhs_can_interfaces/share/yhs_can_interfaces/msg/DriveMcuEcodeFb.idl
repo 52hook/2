@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/DriveMcuEcodeFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct DriveMcuEcodeFb {
+      int32 drive_fb_mcuecode;
+    };
+  };
+};

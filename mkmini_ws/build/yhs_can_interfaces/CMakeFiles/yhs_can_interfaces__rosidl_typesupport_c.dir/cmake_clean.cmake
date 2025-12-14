@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/bms_flag_info_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/bms_flag_info_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/bms_info_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/bms_info_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/chassis_info_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/chassis_info_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/ctrl_cmd__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/ctrl_cmd__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/ctrl_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/ctrl_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/drive_mcu_ecode_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/drive_mcu_ecode_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/io_cmd__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/io_cmd__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/io_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/io_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/lr_wheel_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/lr_wheel_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/rr_wheel_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/rr_wheel_fb__type_support.cpp.o.d"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/veh_diag_fb__type_support.cpp.o"
+  "CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/yhs_can_interfaces/msg/veh_diag_fb__type_support.cpp.o.d"
+  "libyhs_can_interfaces__rosidl_typesupport_c.pdb"
+  "libyhs_can_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/bms_flag_info_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/bms_info_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/chassis_info_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/ctrl_cmd__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/ctrl_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/drive_mcu_ecode_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/io_cmd__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/io_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/lr_wheel_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/rr_wheel_fb__type_support.cpp"
+  "rosidl_typesupport_c/yhs_can_interfaces/msg/veh_diag_fb__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/yhs_can_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nvidia/mkmini_ws/build/yhs_can_interfaces/rosidl_generator_py/yhs_can_interfaces/yhs_can_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "yhs_can_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/yhs_can_interfaces")

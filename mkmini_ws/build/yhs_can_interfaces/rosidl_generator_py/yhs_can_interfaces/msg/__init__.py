@@ -1,0 +1,11 @@
+from yhs_can_interfaces.msg._bms_flag_info_fb import BmsFlagInfoFb  # noqa: F401
+from yhs_can_interfaces.msg._bms_info_fb import BmsInfoFb  # noqa: F401
+from yhs_can_interfaces.msg._chassis_info_fb import ChassisInfoFb  # noqa: F401
+from yhs_can_interfaces.msg._ctrl_cmd import CtrlCmd  # noqa: F401
+from yhs_can_interfaces.msg._ctrl_fb import CtrlFb  # noqa: F401
+from yhs_can_interfaces.msg._drive_mcu_ecode_fb import DriveMcuEcodeFb  # noqa: F401
+from yhs_can_interfaces.msg._io_cmd import IoCmd  # noqa: F401
+from yhs_can_interfaces.msg._io_fb import IoFb  # noqa: F401
+from yhs_can_interfaces.msg._lr_wheel_fb import LrWheelFb  # noqa: F401
+from yhs_can_interfaces.msg._rr_wheel_fb import RrWheelFb  # noqa: F401
+from yhs_can_interfaces.msg._veh_diag_fb import VehDiagFb  # noqa: F401

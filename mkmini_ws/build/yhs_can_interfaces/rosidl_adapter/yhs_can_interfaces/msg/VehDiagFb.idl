@@ -1,0 +1,64 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/VehDiagFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct VehDiagFb {
+      uint8 veh_fb_fault_level;
+
+      boolean veh_fb_auto_can_ctrl_cmd;
+
+      boolean veh_fb_auto_io_can_cmd;
+
+      boolean veh_fb_eps_dis_on_line;
+
+      boolean veh_fb_eps_fault;
+
+      boolean veh_fb_eps_mosf_et_ot;
+
+      boolean veh_fb_eps_warning;
+
+      boolean veh_fb_eps_dis_work;
+
+      boolean veh_fb_eps_over_current;
+
+      boolean veh_fb_st_reserve;
+
+      boolean veh_fb_ehb_ecu_fault;
+
+      boolean veh_fb_ehb_dis_on_line;
+
+      boolean veh_fb_ehb_work_model_fault;
+
+      boolean veh_fb_ehb_dis_en;
+
+      boolean veh_fb_ehb_anguler_fault;
+
+      boolean veh_fb_ehb_ot;
+
+      boolean veh_fb_ehb_power_fault;
+
+      boolean veh_fb_ehb_sensor_abnomal;
+
+      boolean veh_fb_ehb_motor_fault;
+
+      boolean veh_fb_ehb_oil_press_sensor_fault;
+
+      boolean veh_fb_ehb_oil_fault;
+
+      uint8 veh_fb_ld_rv_mcu_fault;
+
+      uint8 veh_fb_rd_rv_mcu_fault;
+
+      boolean veh_fb_aux_bms_dis_on_line;
+
+      boolean veh_fb_aux_scram;
+
+      boolean veh_fb_aux_remote_close;
+
+      boolean veh_fb_aux_remote_dis_on_line;
+    };
+  };
+};

@@ -1,0 +1,80 @@
+// generated from rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em
+// with input from yhs_can_interfaces:msg/ChassisInfoFb.idl
+// generated code does not contain a copyright notice
+
+#ifndef YHS_CAN_INTERFACES__MSG__DETAIL__CHASSIS_INFO_FB__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+#define YHS_CAN_INTERFACES__MSG__DETAIL__CHASSIS_INFO_FB__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "yhs_can_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+#include "yhs_can_interfaces/msg/detail/chassis_info_fb__struct.hpp"
+
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-parameter"
+# ifdef __clang__
+#  pragma clang diagnostic ignored "-Wdeprecated-register"
+#  pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
+# endif
+#endif
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+
+#include "fastcdr/Cdr.h"
+
+namespace yhs_can_interfaces
+{
+
+namespace msg
+{
+
+namespace typesupport_fastrtps_cpp
+{
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_yhs_can_interfaces
+cdr_serialize(
+  const yhs_can_interfaces::msg::ChassisInfoFb & ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_yhs_can_interfaces
+cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  yhs_can_interfaces::msg::ChassisInfoFb & ros_message);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_yhs_can_interfaces
+get_serialized_size(
+  const yhs_can_interfaces::msg::ChassisInfoFb & ros_message,
+  size_t current_alignment);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_yhs_can_interfaces
+max_serialized_size_ChassisInfoFb(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+}  // namespace typesupport_fastrtps_cpp
+
+}  // namespace msg
+
+}  // namespace yhs_can_interfaces
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_yhs_can_interfaces
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, yhs_can_interfaces, msg, ChassisInfoFb)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // YHS_CAN_INTERFACES__MSG__DETAIL__CHASSIS_INFO_FB__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_

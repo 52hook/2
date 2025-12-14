@@ -1,0 +1,5 @@
+/home/nvidia/ws_fastlio2/build/interface/rosidl_adapter/interface:srv/SaveMaps.idl
+/home/nvidia/ws_fastlio2/build/interface/rosidl_adapter/interface:srv/Relocalize.idl
+/home/nvidia/ws_fastlio2/build/interface/rosidl_adapter/interface:srv/IsValid.idl
+/home/nvidia/ws_fastlio2/build/interface/rosidl_adapter/interface:srv/RefineMap.idl
+/home/nvidia/ws_fastlio2/build/interface/rosidl_adapter/interface:srv/SavePoses.idl

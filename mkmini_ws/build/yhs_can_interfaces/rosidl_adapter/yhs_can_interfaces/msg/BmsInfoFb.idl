@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/BmsInfoFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct BmsInfoFb {
+      float bms_info_voltage;
+
+      float bms_info_current;
+
+      float bms_info_remaining_capacity;
+    };
+  };
+};

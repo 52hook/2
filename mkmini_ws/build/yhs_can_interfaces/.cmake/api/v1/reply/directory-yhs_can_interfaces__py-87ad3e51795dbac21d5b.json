@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yhs_can_interfaces__py",
+		"source" : "/home/nvidia/mkmini_ws/build/yhs_can_interfaces/yhs_can_interfaces__py"
+	}
+}

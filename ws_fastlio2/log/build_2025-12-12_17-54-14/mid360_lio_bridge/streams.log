@@ -1,0 +1,17 @@
+[0.419s] Invoking command in '/home/nvidia/ws_fastlio2/build/mid360_lio_bridge': NX_CONNECTION=192.168.31.185 59893 192.168.31.39 4000 PYTHONPATH=/home/nvidia/ws_fastlio2/build/mid360_lio_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ws_fastlio2/install/mid360_lio_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nvidia/ws_fastlio2/build/mid360_lio_bridge/build --no-deps symlink_data
+[0.601s] running develop
+[0.706s] running egg_info
+[0.706s] writing mid360_lio_bridge.egg-info/PKG-INFO
+[0.707s] writing dependency_links to mid360_lio_bridge.egg-info/dependency_links.txt
+[0.707s] writing entry points to mid360_lio_bridge.egg-info/entry_points.txt
+[0.707s] writing requirements to mid360_lio_bridge.egg-info/requires.txt
+[0.707s] writing top-level names to mid360_lio_bridge.egg-info/top_level.txt
+[0.708s] reading manifest file 'mid360_lio_bridge.egg-info/SOURCES.txt'
+[0.709s] writing manifest file 'mid360_lio_bridge.egg-info/SOURCES.txt'
+[0.710s] running build_ext
+[0.710s] Creating /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/lib/python3.10/site-packages/mid360-lio-bridge.egg-link (link to .)
+[0.711s] Installing bridge_node script to /home/nvidia/ws_fastlio2/install/mid360_lio_bridge/lib/mid360_lio_bridge
+[0.711s] 
+[0.711s] Installed /home/nvidia/ws_fastlio2/build/mid360_lio_bridge
+[0.711s] running symlink_data
+[0.736s] Invoked command in '/home/nvidia/ws_fastlio2/build/mid360_lio_bridge' returned '0': NX_CONNECTION=192.168.31.185 59893 192.168.31.39 4000 PYTHONPATH=/home/nvidia/ws_fastlio2/build/mid360_lio_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ws_fastlio2/install/mid360_lio_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nvidia/ws_fastlio2/build/mid360_lio_bridge/build --no-deps symlink_data

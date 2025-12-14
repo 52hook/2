@@ -1,0 +1,52 @@
+[0.006s] Invoking command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake /home/nvidia/mkmini_ws/src/MK-mini-description-ros2 -DCMAKE_INSTALL_PREFIX=/home/nvidia/mkmini_ws/install/yhs_chassis_description
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.251s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.297s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.298s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.354s] -- Detecting CXX compile features
+[0.354s] -- Detecting CXX compile features - done
+[0.357s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.452s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.513s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.572s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.572s] -- Added test 'lint_cmake' to check CMake code style
+[0.572s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.573s] -- Added test 'xmllint' to check XML markup files
+[0.574s] -- Configuring done
+[0.575s] -- Generating done
+[0.576s] -- Build files have been written to: /home/nvidia/mkmini_ws/build/yhs_chassis_description
+[0.578s] Invoked command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake /home/nvidia/mkmini_ws/src/MK-mini-description-ros2 -DCMAKE_INSTALL_PREFIX=/home/nvidia/mkmini_ws/install/yhs_chassis_description
+[0.580s] Invoking command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/mkmini_ws/build/yhs_chassis_description -- -j20 -l20
+[0.599s] Invoked command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/mkmini_ws/build/yhs_chassis_description -- -j20 -l20
+[0.604s] Invoking command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --install /home/nvidia/mkmini_ws/build/yhs_chassis_description
+[0.607s] -- Install configuration: ""
+[0.607s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/launch
+[0.607s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/launch/MK-mini.launch.py
+[0.607s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/meshes
+[0.607s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/meshes/MK-mini.STL
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/rviz
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/rviz/rviz.rviz
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/urdf
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/urdf/MK-mini.urdf
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/package_run_dependencies/yhs_chassis_description
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/parent_prefix_path/yhs_chassis_description
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/ament_prefix_path.sh
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/ament_prefix_path.dsv
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/path.sh
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/environment/path.dsv
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.bash
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.sh
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.zsh
+[0.609s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/local_setup.dsv
+[0.610s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/package.dsv
+[0.610s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/ament_index/resource_index/packages/yhs_chassis_description
+[0.610s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/cmake/yhs_chassis_descriptionConfig.cmake
+[0.610s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/cmake/yhs_chassis_descriptionConfig-version.cmake
+[0.610s] -- Installing: /home/nvidia/mkmini_ws/install/yhs_chassis_description/share/yhs_chassis_description/package.xml
+[0.610s] Invoked command in '/home/nvidia/mkmini_ws/build/yhs_chassis_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.185 60693 192.168.31.39 4000 /usr/bin/cmake --install /home/nvidia/mkmini_ws/build/yhs_chassis_description

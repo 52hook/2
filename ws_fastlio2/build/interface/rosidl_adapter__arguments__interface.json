@@ -1,0 +1,10 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/home/nvidia/ws_fastlio2/src/fastlio2_ros2/interface:srv/SaveMaps.srv",
+    "/home/nvidia/ws_fastlio2/src/fastlio2_ros2/interface:srv/Relocalize.srv",
+    "/home/nvidia/ws_fastlio2/src/fastlio2_ros2/interface:srv/IsValid.srv",
+    "/home/nvidia/ws_fastlio2/src/fastlio2_ros2/interface:srv/RefineMap.srv",
+    "/home/nvidia/ws_fastlio2/src/fastlio2_ros2/interface:srv/SavePoses.srv"
+  ]
+}
